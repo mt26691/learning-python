@@ -18,3 +18,12 @@ thisset = {"apple", "banana", "cherry"}
 thisset.add("apple")
 for data in thisset:
     print(data)
+print("test dic")
+testDic = {"name": "tung", "age": "28"}
+
+print(testDic["name"])
+for dicProperty, dicValue in testDic.items():
+    print(dicProperty + " = " + dicValue)
+
+if "name" in testDic:
+    print("there is a property called name")
